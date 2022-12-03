@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+ @import url('<https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap>');
+   .top1 {
+    background-image: url("https://www.stockvault.net/data/2019/08/24/268599/preview16.jpg");
+    width: 100vw;
+    height: 15vh;
+    box-shadow: -10px 10px 20px dimgray;
+    background-size: cover;
+   }
+   .top_head{
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-weight: bolder;
+   }
+   .para {
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 20px;
+   }
+    .container {
+    height: 80vh;
+    background-color: #fff;
+    width: 80vw;
+    margin-top: 30px;
+    padding-right: 80px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+   }
+   .container .form {
+    padding: 30px;
+   }
+   .container .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+   }
+   .form .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #4070f4;
+    border-radius: 25px;
+   }
+   .form .input-field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+   }
+   .input-field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+   }
+   .input-field input:is(:focus,:valid){
+    border-bottom-color: #4070f4;
+   }
+   .input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translativeY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+   }
+   .input-field input:is(:focus,:valid) ~ i{
+    color: #4070f4;
+   }
+   .input-field i.icon {
+    left: 0;
+   }
+   .form .text {
+    color: #333;
+    font-size: 14px;
+
+   }
+   .form a.text {
+    color: #4070f4;
+    text-decoration: none;
+   }
+   .form a:hover{
+    text-decoration:underline;
+   }
+   .form .button{
+    margin-top: 35px;
+   }
+   .form .button input{
+    border:none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    width: 30vw;
+   }
+   .button input:hover {
+    background-color: #265df2;
+   }
+   .form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+   }
+   .logout {
+   background-color: #03a9f4;
+   padding: 5px;
+   color: #ffffff;
+   border-width: 0px;
+   width: 10vh;
+   margin-top: 35px;
+   margin-left: 650px;
+   }
+   .logout:hover {
+   transition: 0.1;
+   }
+   
+   

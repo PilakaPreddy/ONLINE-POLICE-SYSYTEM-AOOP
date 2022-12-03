@@ -1,0 +1,285 @@
+@charset "ISO-8859-1";
+ @import url('<https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap>');
+   .top1 {
+    background-image: url("https://www.stockvault.net/data/2019/08/24/268599/preview16.jpg");
+    width: 100vw;
+    height: 10vh;
+    box-shadow: -10px 10px 20px dimgray;
+    background-size: cover;
+   }
+   .top_head{
+    color: black;
+    padding-left: 20px;
+    padding-top: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-weight: bold;
+   }
+   .img{
+    height: 69px;
+    width: 65px;
+   }
+   .top_content{
+    color:black;
+    margin-right: 10px;
+    margin-top: -57.5px;
+    font-size: 22.5px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 40px;
+    padding: 7.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: end;
+    font-weight: bolder;
+   }
+   .top_content:hover{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+   }
+
+   .backh {
+    background-image: linear-gradient(rgba(35,35,35, 0.7),rgba(40,40,40, 0.7)),url("https://media.istockphoto.com/photos/american-policeman-and-police-car-in-the-background-picture-id1249400249?k=20&m=1249400249&s=612x612&w=0&h=hL3un8v6LOTva_LiHwuMdR_hgVtzHxL5hks5a5dP9qE=");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+   }
+
+   .backa {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://media.istockphoto.com/photos/police-car-emergency-services-picture-id1202429977?k=20&m=1202429977&s=170667a&w=0&h=dTVyyQBfG32rIA1l_kd8USovzqtwM8VGvWPfxpPUiD0=");
+    height: 100vh;
+    background-size: cover;
+   }
+   .abt_head {
+    color: #25e3e6;
+    text-align: start;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    font-weight: bold;
+   }
+   .abt_para {
+    color: #ffffff;
+    text-align: start;
+    padding-left: 40px;
+    padding-right: 60px;
+    margin-top: 25px;
+    font-size: x-large;
+    word-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+
+   }
+   .car_size {
+    height: 80vh;
+    width: 160vw;
+    padding-top: 70px; 
+    margin-left: 40px;
+    border-radius: 20px;
+   }
+   .space {
+    margin-right: 60px;
+   }
+   .car_img {
+    height: 70vh;
+    margin-right: 80px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #333333;
+    border-width: thin;
+   }
+   .home_content {
+    text-align: center;
+    padding: 25px;
+    margin-top: 90px;
+   }
+   .home_head {
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+   }
+   .home_para {
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 25px;
+    font-weight: lighter;
+   }
+   .home_para2 {
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    padding: 15px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+   }
+   .list {
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #ffffff;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .backr {
+    background-image: url("https://media.istockphoto.com/photos/blue-mesh-gradient-blurred-motion-abstract-background-picture-id1185747322?b=1&k=20&m=1185747322&s=170667a&w=0&h=apmnyBZiGbrbGeGS-GVBrnMM4-EIkn075GQDN9DR4xQ=");
+    height:100vh;
+    width: 100vw;
+    background-size: cover;
+   }
+   .container {
+    height: 80vh;
+    background-color: #fff;
+    width: 80vw;
+    margin-top: 30px;
+    padding-right: 80px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+   }
+   .container .form {
+    padding: 30px;
+   }
+   .container .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+   }
+   .form .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #4070f4;
+    border-radius: 25px;
+   }
+   .form .input-field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+   }
+   .input-field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+   }
+   .input-field input:is(:focus,:valid){
+    border-bottom-color: #4070f4;
+   }
+   .input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translativeY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+   }
+   .input-field input:is(:focus,:valid) ~ i{
+    color: #4070f4;
+   }
+   .input-field i.icon {
+    left: 0;
+   }
+   .input-field i.showHidePw {
+    right: 0;
+    cursor: pointer;
+   }
+   .form .checkbox-text {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+   }
+   .checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+   }
+   .checkbox-content input {
+    margin: -10 8px -2px 4px;
+    accent-color: #4070f4;
+   }
+   .form .text {
+    color: #333;
+    font-size: 14px;
+
+   }
+   .form a.text {
+    color: #4070f4;
+    text-decoration: none;
+   }
+   .form a:hover{
+    text-decoration:underline;
+   }
+   .form .button{
+    margin-top: 35px;
+   }
+   .form .button input{
+    border:none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor:pointer;
+    transition: all 0.3s ease;
+   }
+   .button input:hover {
+    background-color: #265df2;
+   }
+   .form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+   }
+   .backu{
+    background-image: url("https://img.pikbest.com/backgrounds/20200810/abstract-blue-gradient-background-design-vector-template-v_2453974jpg!bw700");
+    height: 100vh;
+    background-size: cover;
+   }
+   .ucontainer {
+    margin-top: 100px;
+    margin-right: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    background-color: #fff;
+    width: 25vw;
+    padding-right: 10px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+   }
+   .ucontainer .form {
+    padding: 20px;
+   }
+   .ucontainer .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+   }
+   .spaceu {
+    width: 300px;
+    padding-right: 300px;
+   }
+   .backad {
+    background-image: url("https://t3.ftcdn.net/jpg/05/01/44/36/360_F_501443687_KD1VMw2OJ6mgf3DIvISqv2DjeLv2LhJ2.jpg");
+    height: 100vh;
+    background-size: cover;
+   }
